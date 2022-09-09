@@ -1,0 +1,14 @@
+h1 {
+  color: brown;
+}
+
+nav {
+  background-color: grey;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
