@@ -1,3 +1,9 @@
+body {
+  background-color: #f7e6dd;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -11,13 +17,16 @@ h3 {
 }
 h4 {
   color: #ef102e;
+  font-size: larger;
   text-shadow: 0.5px 1px 0.5px grey;
 }
 
 nav {
-  background-color: #d2ccca;
+  background-color: #e4dcd9;
   display: flex;
   align-items: center;
+  border-radius: 4px;
+  box-shadow: 0.5px 1px 0.5px grey;
 }
 
 nav ul li {
@@ -25,6 +34,7 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
   vertical-align: middle;
+  line-height: 36px;
 }
 
 p,
@@ -38,6 +48,58 @@ a {
   color: brown;
 }
 a:hover {
-  color: #b83682;
+  font-weight: bolder;
   font-size: large;
+  text-decoration: underline;
+}
+div.farmPics {
+  display: flex;
+  justify-content: space-around;
+}
+div.farmPics img {
+  border-radius: 4px;
+  box-shadow: 4px 8px 4px grey;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 20px 3px;
+}
+table th p {
+  display: inline-block;
+  margin: 10px;
+  text-align: justify;
+}
+table.rabbitProducts img {
+  border-radius: 4px;
+  box-shadow: 4px 8px 4px grey;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+div.center_list {
+  text-align: center;
+}
+div.center_list ol {
+  display: inline-block;
+  text-align: left;
+  max-width: 60%;
+}
+div.video {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  border-radius: 4px;
+  box-shadow: 4px 8px 4px grey;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #e4dcd9;
+  text-align: center;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0.5px 1px 0.5px grey;
 }
