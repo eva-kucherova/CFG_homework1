@@ -1,14 +1,43 @@
-h1 {
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'PT Sans', sans-serif;
   color: brown;
+}
+h1,
+h3 {
+  text-align: center;
+}
+h4 {
+  color: #ef102e;
+  text-shadow: 0.5px 1px 0.5px grey;
 }
 
 nav {
-  background-color: grey;
+  background-color: #d2ccca;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
-  text-align: center;
-  margin-right: 10px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+p,
+a,
+li {
+  font-family: 'Noto Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: #b83682;
+  font-size: large;
 }
